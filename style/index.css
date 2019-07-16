@@ -1,5 +1,6 @@
 body {
     background-blend-mode: hard-light;
+    background-color: rgb(250, 248, 242);
 }
 
 .item1 { grid-area: Unix; }
@@ -14,7 +15,11 @@ body {
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: snow;
+  background-color: rgb(250, 248, 242);
   padding: 10px;
-  
+}
+
+.container {
+  font-weight: bold;
+  background-color:  rgb(250, 248, 242);
 }

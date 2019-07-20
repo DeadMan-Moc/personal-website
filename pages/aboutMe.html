@@ -8,17 +8,109 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../style/index.css'>
     <script src='../script/script.js'></script>
 </head>
-<body>
-    <nav>
-        <a href ="aboutMe.html">More about Me</a>
-        <a href ="skills.html">Skills</a>
-        <a href ="projects.html">Projects</a>
+<nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/aboutMe.html" class="nav-link current">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/projects.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/contact.html" class="nav-link">
+            Contact Me
+          </a>
+        </li>
+      </ul>
     </nav>
-    <div class="container">
-       
+  </header>
+  <main class="container" id="home">
+    <h1 class="text-center">About Me</h1>
+    <div class="row">
+      <div class="card col-md m-2">
+        <div class="card-body">
+          <h4 class="card-title">EDUCATION</h4>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted">University Of Limpopo</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Forestry</h6>
+          <p class="card-text">February 2014 - December 2016</p>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted"> WeThinkCode_</h5>
+          <h6 class="card-subtitle mb-2 text-muted"> Software Engineering</h6>
+          <p class="card-text">May 2018 - Present</p>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted"> Umuzi Academy</h5>
+          <h6 class="card-subtitle mb-2 text-muted"> Wee Development</h6>
+          <p class="card-text">May 2019 - Present</p>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted"> FreeCodeCamp</h5>
+          <h6 class="card-subtitle mb-2 text-muted"> Full Stack Web Development</h6>
+          <p class="card-text">July 2017 - Present</p>
+        </div>
+      </div>
+      <div class="card col-md m-2">
+        <div class="card-body">
+          <h4 class="card-title">SKILLS & TOOLS</h4>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted">Databases</h5>
+          <h6 class="card-subtitle mb-2 text-muted">MySql</h6>
+          <h6 class="card-subtitle mb-2 text-muted">NodeJS</h6>
+          <h6 class="card-subtitle mb-2 text-muted">MongoDB</h6>
+          <p class="card-text"></p>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted">Programming Languages</h5>
+          <br>
+          <h6 class="card-subtitle mb-2 text-muted">Front End</h6>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+          <h6 class="card-subtitle mb-2 text-muted">Back End</h6>
+          <ul>
+            <li>PHP</li>
+            <li>Java</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card col-md m-2">
+        <div class="card-body">
+          <h4 class="card-title">Experience</h4>
+          <hr/>
+          <h5 class="card-subtitle mb-2 text-muted">Software Developer</h5>
+          <p class="card-text">14 May 2018 - Hold</p>
+          <h6 class="card-subtitle mb-2 text-muted">Technologies Used</h6>
+          <ul>
+            <li>Java</li>
+            <li>C </li>
+            <li>PHP</li>
+            <li>Node JS</li>
+            <li>Passport JS</li>
+            <li>Experess JS</li>
+            <li>MongoDB</li>
+            <li>MySql</li>
+            <li>HTML, CSS3, JavaScript</li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </main>
+  <script src=""></script>
+  <script>
+    setTimeout(() => {
+      document.querySelector(".container").classList.add("about");
+    }, 350)
+  </script>
 </body>
-<footer>
-    By @c Alfred Mokgohloa 2019
-</footer>
 </html>

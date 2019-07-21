@@ -1,24 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>My projects</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../style/index.css'>
-    <script src='../script/script.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Allie | Projects</title>
+  <link rel="stylesheet" href="../style/bootstrap.css">
+  <link rel="stylesheet" href="../style/index.css">
 </head>
 <body>
-    <nav>
-        <a href ="aboutMe.html">More about Me</a>
-        <a href ="skills.html">Skills</a>
-        <a href ="projects.html">Projects</a>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="aboutMe.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="nav-link current">
+            My Projects
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            Contact Me
+          </a>
+        </li>
+      </ul>
     </nav>
-    <p>
-        
-    </p>
+  </header>
+  <main class="projects" id="home">
+    <h1>PROJECTS</h1>
+    <hr/>
+    <div class="container flex-container">
+      <div class="flex-3">
+        <!-- <img src="img/js_calculator.png" alt="" srcset=""> -->
+        <div class="magnify">
+          <a class="btn-git" href="">Github</a>
+          <a class="btn-view" href="">View</a>
+        </div>
+      </div>
+      <div class="flex-3">
+        <!-- <img src="img/pomodoro.png" alt="" srcset=""> -->
+        <div class="magnify">
+          <a class="btn-git" href="">Github</a>
+          <a class="btn-view" href="">View</a>
+        </div>
+      </div>
+      <div class="flex-3">
+        <!-- <img src="img/quote_generator.png" alt="" srcset=""> -->
+        <div class="magnify">
+          <a class="btn-git" href="">Github</a>
+          <a class="btn-view" href="">View</a>
+        </div>
+      </div>
+      <div class="flex-3">
+        <img src="img/weather_app.png" alt="" srcset="">
+        <div class="magnify">
+          <a class="btn-git" href="">Github</a>
+          <a class="btn-view" href="">View</a>
+        </div>
+      </div>
+      <div class="flex-3">
+        <img src="img/wikipedia_viewer.png" alt="" srcset="">
+        <div class="magnify">
+          <a class="btn-git" href="">Github</a>
+          <a class="btn-view" href="">View</a>
+        </div>
+      </div>
+      <div class="flex-3">
+        <div class="magnify">
+          <a class="btn-git" href="">Github</a>
+          <a class="btn-view" href="">View</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+  <script>
+    setTimeout(() => {
+      document.querySelector(".container").classList.add("about");
+    }, 350)
+  </script>
 </body>
-<footer>
-    By @c Alfred Mokgohloa 2019
-</footer>
 </html>

@@ -62,7 +62,7 @@
       border: 3px solid #eec31a; }
   .menu-nav {
     margin: 0;
-    background-color: #373737;
+    background-color: #3b3a3a;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }

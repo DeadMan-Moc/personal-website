@@ -1,11 +1,3 @@
-/* <script>
-hover{
-
-}
-flip {
-
-}
-
-</script>
-  */
-
+const menu = querySelector(".menu")
+const menuNav = ;
+const menuBranding = ;

@@ -229,7 +229,7 @@ body {
   line-height: 1.5;
   margin: 0; }
   body#bg-img {
-    background: url(../img/background.jpeg);
+    background: "../img/background.jpeg";
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img::after {

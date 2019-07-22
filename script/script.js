@@ -7,9 +7,9 @@ const navItems = querySelector(".nav-bar")
 //menu operations
 let showMenu = false;
 
-menuBtn = addEventListener("click", explode)
+menuBtn = addEventListener("click", toggleMenu)
 
-function explodeMenu() {
+function toggleMenu() {
     if (!showMenu){
         menuBtn.classList.add("close")
         menuNav.classList.add("show")

@@ -22,12 +22,12 @@ function explodeMenu() {
     }
     else {
         menuBtn.classList.remove("close")
-        menuNav.classList.a("show")
-        menuBranding.classList.add("show")
-        menu.classList.add("show")
+        menuNav.classList.remove("show")
+        menuBranding.classList.remove("show")
+        menu.classList.remove("show")
 
-        navItem.foreach (items => items.classList.add("show"));
+        navItem.foreach (items => items.classList.remove("show"));
 
-        showMenu = true;
+        showMenu = false;
     }
 }

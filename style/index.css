@@ -3,20 +3,8 @@ body {
     background-color: rgb(250, 248, 242);
 }
 
-.item1 { grid-area: Unix; }
-.item2 { grid-area: Web ; }
-.item3 { grid-area: Java; }
-.item4 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: rgb(250, 248, 242);
-  padding: 10px;
+btn-git {
+  
 }
 
 .container {

@@ -104,15 +104,15 @@
   transition-delay: 2s;
   transition: all 0.5s ease-out; }
   .container h1 {
-    color: #fff !important; }
+    color: black !important; }
   .container hr {
-    border-color: #fff; }
+    border-color: black; }
   .container .card {
-    background-color: #444;
-    border-color: #fff;
-    color: #fff; }
+    background-color: whitesmoke;
+    border-color:black;
+    color:black; }
   .container .card-subtitle {
-    color: #fff !important; }
+    color: Black !important; }
   .container.about {
     transform: translate3d(0, 0, 0); }
 
@@ -135,7 +135,8 @@
       text-align: center;
       transition: all 0.5s ease-out; }
       .projects .flex-container .flex-3 .magnify:hover {
-        background:whitesmoke; }
+        background:whitesmoke;
+      }
       .projects .flex-container .flex-3 .magnify .btn-git {
         position: absolute;
         bottom: 0px;

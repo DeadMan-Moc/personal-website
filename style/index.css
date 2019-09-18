@@ -259,6 +259,7 @@ h3 {
     background: snow;
     border-style: dotted;
     border-width: 3px;
+    border-block-end-width: unset;
   }
 
 a {

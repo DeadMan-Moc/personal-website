@@ -134,9 +134,9 @@
       background: rgba(143, 143, 143, 0);
       text-align: center;
       transition: all 0.5s ease-out; }
-      .projects .flex-container .flex-3 .magnify:hover {
-        background:whitesmoke;
-      }
+      /* .projects .flex-container .flex-3 .magnify:hover {
+        background:#ff8c8c;
+      } */
       .projects .flex-container .flex-3 .magnify .btn-git {
         position: absolute;
         bottom: 0px;
